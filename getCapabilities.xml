@@ -156,7 +156,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:base_blocosunibrasil</Layers>
+				<Layers>GH:base_terrenounibrasil</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -166,7 +166,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:base_blocosunibrasil</Layers>
+				<Layers>GH:base_terrenounibrasil</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -176,7 +176,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:base_terrenounibrasil</Layers>
+				<Layers>GH:base_blocosunibrasil</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -186,7 +186,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:base_terrenounibrasil</Layers>
+				<Layers>GH:base_blocosunibrasil</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<CustomLayer>
@@ -238,26 +238,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:base_blocosunibrasil</Name>
-				<Title>base_blocosunibrasil</Title>
-				<Abstract>GH:base_blocosunibrasil ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group:shp::://github.com/acervounibrasil/Mappia_Example/releases/download/Map_Download/base_blocosunibrasil.zip:notListing::maxZoom:8</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="-49.21460693689874" miny="-25.42641267655696" maxx="-49.21000538356369" maxy="-25.423481245107507"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-5478544.983806677" miny="-2928211.3917234973" maxx="-5478032.741232573" maxy="-2927850.0718787573"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=base_blocosunibrasil"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:base_terrenounibrasil</Name>
 				<Title>base_terrenounibrasil</Title>
 				<Abstract>GH:base_terrenounibrasil ABSTRACT</Abstract>
@@ -274,6 +254,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=base_terrenounibrasil"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:base_blocosunibrasil</Name>
+				<Title>base_blocosunibrasil</Title>
+				<Abstract>GH:base_blocosunibrasil ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group:shp::://github.com/acervounibrasil/Mappia_Example/releases/download/Map_Download/base_blocosunibrasil.zip:notListing::maxZoom:13</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="-49.21460693689874" miny="-25.42641267655696" maxx="-49.21000538356369" maxy="-25.423481245107507"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-5478544.983806677" miny="-2928211.3917234973" maxx="-5478032.741232573" maxy="-2927850.0718787573"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=base_blocosunibrasil"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
